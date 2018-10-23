@@ -1,0 +1,80 @@
+<style type="text/css">
+    body 
+    h1 {
+        font-family:'Source Sans Pro';
+        font-size: 20px;
+        color: rgb(79, 97, 37);
+        margin-top:0px;
+      
+        
+    }
+    p {
+        font-family:'Lora';
+        font-size: 14px;
+        color:#492c00;
+        margin-left: 100px;
+        margin-right: 150px;
+        text-align: justify;
+        text-justify: inter-word;
+        
+    }
+   ul {
+        font-family:'Lora';
+        font-size: 14px;
+        color:rgb(79, 97, 37);
+        margin-left: 100px;
+        margin-right: 150px;
+        text-align: justify;
+        text-justify: inter-word;
+        
+    }
+
+    h2 {
+        font-family:'Lora';
+        font-size: 12px;
+        color:#492c00;
+        margin-left: 0px;
+        
+    }
+    #intro {
+        font-family: 'source sans pro';
+        font-size: 15px;
+        color: rgb(79, 97, 37);
+    
+    }
+
+    #video
+   {
+    width: 620px;
+    height:345px;
+     margin-left:100px;
+   
+   }
+   
+    
+    .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+
+    .img-sheril {
+        width: 300px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .img-hellothere {
+        width: 600px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .mapouter {
+        margin-left: 100px;
+    }
+
+
+</style>
