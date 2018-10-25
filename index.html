@@ -5,11 +5,19 @@
 <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
 
-</head>
-<body>
-        <img class="img-sheril" src="img/fotosheril.png" alt="Sherilyn Silviani"/>
-        <img class="img-hellothere" src="img/hellothere.png" alt="hello there"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+</head>
+
+<body>
+  <div style="width:100%; height:auto;display:inline;">
+        <img class="img-sheril" src="img/fotosheril.png" alt="Sherilyn Silviani"/>
+  </div>
+  <div style="width:100%; height:auto;display:inline;">
+        <img class="img-hellothere" src="img/hellothere.png" alt="hello there"/>
+        
+    </div>
 <h1> 
 <center> hi and welcome to my experimental website</center></p>
 
@@ -64,8 +72,8 @@ body {
      
   <a href="#">About Me</a>
   <a href="portfolio.html">Portfolio</a>
-  <a href="#">Beauty and Skincare</a>
-  <a href="#">Movies and Music</a>
+  <a href="beauty.html">Beauty and Skincare</a>
+  <a href="moviesmusic.html">Movies and Music</a>
   <a href="#">Foodies</a>
    <a href="#">FAQ</a>
 </div>
@@ -76,11 +84,15 @@ body {
 
   
 
-<p id= "intro"> <br>
-    <br>
-    
-    Hello and welcome. <br> 
-    My name is Sherilyn, I am 22 years of age and had just
+<div class= "main"> 
+    <p>
+        <br>
+        <br>
+        <div class="paragraph1" style="margin-left: 5%;
+        float: left;
+        margin-right: 5%;">
+             Hello and welcome. <br> 
+                 My name is Sherilyn, I am 22 years of age and had just
     graduated from Maranatha Christian University as a Bachelor of Arts student.
     I took graphic design as my major but I'm also interested in becoming a UI/UX
     designer, that's why I took this programming class. 
@@ -90,15 +102,21 @@ body {
     specifically in gunung batu dalam. Here's my location:
     <br>
     <br>
-
+</div>
+</div>
+<div class="hobbies" style="margin-left:100px;">
   My hobbies include:
    <ul>
        <li>Singing and playing guitar</li>
        <li>Watching TV Shows and Movies </li>
        <li>Anything make-up and skin care related</li>
        <li>And lately, coding has been so much fun</li>
+    </div>
    </ul>
     <br>
+    <div class="paragraph2" style="margin-left: 5%;
+    float: left;
+    margin-right: 5%;">
     <p> 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras finibus dolor eros, 
     ac euismod quam mollis a. Quisque cursus orci vel erat fringilla, vel dignissim eros interdum. 
@@ -109,6 +127,7 @@ body {
     quis suscipit ipsum erat et sem. Mauris quis tempus mi, eu eleifend augue. Morbi non purus mattis, egestas nisi ac, congue odio.
     <br>
     <br>
+    
 
 Nullam ornare in arcu suscipit pulvinar. Vestibulum pellentesque volutpat lectus, sit amet pharetra arcu porta sed. 
 Nullam semper turpis sed massa molestie, non dignissim est malesuada. Suspendisse in libero ac nibh eleifend placerat. 
@@ -138,28 +157,37 @@ Cras congue congue metus efficitur suscipit. Nullam aliquet tincidunt rutrum. Ma
 Fusce sed orci sit amet eros maximus euismod. Aenean in nisi ut erat faucibus dapibus quis non nisl. Pellentesque ut nisl congue, placerat risus sed, vehicula justo. 
 Nullam tristique porta lorem, sit amet vulputate eros iaculis vitae. Fusce vulputate mi nec nisi vehicula, sit amet fringilla turpis tristique. Donec maximus sapien vel faucibus molestie.
 
-
+</div>
 </p>
 <br>
 <br>
-
+<div class="ytvideo1" style="margin-left: 5%;
+float: left;
+margin-right: 5%;">
 <p>Take a look at my favorite video</p>
 <br>
 <iframe id="video"src="https://www.youtube.com/embed/SnXpE6W8VOI">
 </iframe>
+</div>
 
+<div class="location" style="margin-left: 5%;
+float: left;
+margin-right: 5%;">
 <p> This is my location</p>
 <br>
 
-<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" 
+<div class="mapouter">
+    <div class="gmap_canvas">
+        <iframe width="600" height="500" id="gmap_canvas" 
     src="https://maps.google.com/maps?q=jl%20gn%20tampomas&t=&z=13&ie=UTF8&iwloc=&output=embed" 
     frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
 </iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
 </div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas 
 {overflow:hidden;background:none!important;height:300;width:400;}</style></div>
-
-
+</div>
+</div>
 <br>
+<div>
 <p> <center> Contact me: <br>
 
 +62 89 509 776 440 <br>
@@ -174,6 +202,8 @@ Nullam tristique porta lorem, sit amet vulputate eros iaculis vitae. Fusce vulpu
         <img src="img/insta.png" alt="Instagram" target="_blank" style="width:42px;height:42px;border:0">
       </a>
     </center> 
+
 </p>
+</div>
 </body>
 </html>

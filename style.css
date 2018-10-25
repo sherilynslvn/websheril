@@ -1,4 +1,4 @@
-<style type="text/css">
+
     body 
     h1 {
         font-family:'Source Sans Pro';
@@ -12,8 +12,6 @@
         font-family:'Lora';
         font-size: 14px;
         color:#492c00;
-        margin-left: 100px;
-        margin-right: 150px;
         text-align: justify;
         text-justify: inter-word;
         
@@ -22,8 +20,6 @@
         font-family:'Lora';
         font-size: 14px;
         color:rgb(79, 97, 37);
-        margin-left: 100px;
-        margin-right: 150px;
         text-align: justify;
         text-justify: inter-word;
         
@@ -33,7 +29,7 @@
         font-family:'Lora';
         font-size: 12px;
         color:#492c00;
-        margin-left: 0px;
+    
         
     }
     #intro {
@@ -77,4 +73,83 @@
     }
 
 
-</style>
+    {
+        box-sizing: border-box;
+    }
+    
+    body {
+      margin:0;
+    }
+    
+    
+    
+    /* Style the top navigation bar */
+    .topnav {
+    
+        overflow: hidden;
+        background-color: rgb(131, 107, 80);
+    }
+    
+    /* Style the topnav links */
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        margin-left: 90px;
+        padding: 10px 14px;
+        text-decoration: none;
+        position:relative;
+    }
+    
+    /* Change color on hover */
+    .topnav a:hover {
+        background-color: #bbb780;
+        color: black;
+        transition: all ease-in-out 400ms;
+    }
+
+    .gallery {
+
+        margin:10px 50px;
+        margin-left:100px;
+    }
+    .gallery img {
+
+        transition: 1s;
+        padding: 10px;
+        width: 200px:
+    }
+
+    .gallery img:hover {
+        filter: grayscale;
+        transition: all ease-in-out 200ms;
+        transform: scale(1.1)
+        
+    }
+
+    @media only screen and (max-width:800px) {
+        /* For iPAD: */
+        .main {
+          width: 80%;
+          padding: 0;
+        }
+        .topnav {
+            width: 100%;
+            padding: 0;
+          }
+          .gallery {
+            width: 80%;
+            padding: 0;
+          }
+       
+      }
+      @media only screen and (max-width:600px) {
+        /* For mobile phones: */
+        .topnav, .main, {
+          width: 100%%;
+        }
+        .gallery {
+            width: 80%;
+            padding: 0;
+          }
